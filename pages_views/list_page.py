@@ -74,3 +74,4 @@ def render_list_page(change_page, adjust_month):
                     change_page("edit", diary['id'])
 
             st.markdown("<hr style='margin: 8px 0; border-top: 1px dashed #D5C5B5;'>", unsafe_allow_html=True)
+            
